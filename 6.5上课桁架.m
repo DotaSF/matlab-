@@ -1,0 +1,23 @@
+E = 210e6;
+A = 1e-4;
+L1 = 4;
+L2 = PlaneTrussElementLength(0,0,2,3);
+L3 = PlaneTrussElementLength(0,0,-2,3);
+k1 = PlaneTrussElementStiffness(E,A,L1,0);
+theta2 = atan(3/2)*180/pi;
+theta3 = 180-theta2;
+k2 = PlaneTrussElementStiffness(E,A,L2,theta2);
+k3 = PlaneTrussElementStiffness(E,A,L3,theta3);
+n = 6;
+K = zeros(n,n);
+K = PlaneTrussAssemble(K,k1,1,2);
+K = PlaneTrussAssemble(K,k2,1,3);
+K = PlaneTrussAssemble(K,k3,2,3);
+
+KK = K
+KK(1,1) = KK(1,1)*10e12;
+KK(2,2) = KK(2,2)*10e12;
+KK(4,4) = KK(4,4)*10e12;
+F = [0;0;0;0;5;-10]
+U = KK\F
+F = K*U

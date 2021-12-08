@@ -1,0 +1,31 @@
+﻿生成启动时间为 2014/10/29 星期三 下午 7:03:59。
+     1>项目“F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\ysw_VS2010_MATLAB2012B_2\ysw_VS2010_MATLAB2012B_2.vcxproj”在节点 2 上(build 个目标)。
+     1>PrepareForBuild:
+         正在创建目录“F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\”。
+       InitializeBuildStatus:
+         正在创建“Debug\ysw_VS2010_MATLAB2012B_2.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D YSW_VS2010_MATLAB2012B_2_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ysw_add.cpp
+         ysw_add.cpp
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ysw_VS2010_MATLAB2012B_2.dll.embed.manifest.res" Debug\ysw_VS2010_MATLAB2012B_2_manifest.rc 
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ysw_VS2010_MATLAB2012B_2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.lib" /MACHINE:X86 /DLL Debug\ysw_VS2010_MATLAB2012B_2.dll.embed.manifest.res
+         Debug\ysw_add.obj
+            正在创建库 F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.lib 和对象 F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.exp
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\ysw_VS2010_MATLAB2012B_2.dll.embed.manifest" /manifest Debug\ysw_VS2010_MATLAB2012B_2.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\ysw_VS2010_MATLAB2012B_2.dll.embed.manifest.res" Debug\ysw_VS2010_MATLAB2012B_2_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ysw_VS2010_MATLAB2012B_2.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.lib" /MACHINE:X86 /DLL Debug\ysw_VS2010_MATLAB2012B_2.dll.embed.manifest.res
+         Debug\ysw_add.obj
+            正在创建库 F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.lib 和对象 F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.exp
+         ysw_VS2010_MATLAB2012B_2.vcxproj -> F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\Debug\ysw_VS2010_MATLAB2012B_2.dll
+       FinalizeBuildStatus:
+         正在删除文件“Debug\ysw_VS2010_MATLAB2012B_2.unsuccessfulbuild”。
+         正在对“Debug\ysw_VS2010_MATLAB2012B_2.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“F:\intercompilation\C\visual_stUdio_2010\ysw_vs1\ysw20140921_c++_4\ysw_VS2010_MATLAB2012B_2\ysw_VS2010_MATLAB2012B_2\ysw_VS2010_MATLAB2012B_2.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.42

@@ -1,0 +1,29 @@
+%存在非零的已知位移量
+%  F矩阵-已知数乘以所在行对应K矩阵的列的值
+k1 = LinearBarElementStiffness(210,0.0025,0.3);
+k2 = LinearBarElementStiffness(210,0.0035,0.3);
+k3 = LinearBarElementStiffness(210,0.0045,0.3);
+k4 = LinearBarElementStiffness(210,0.0055,0.3);
+k5 = LinearBarElementStiffness(210,0.0065,0.3);
+k6 = LinearBarElementStiffness(210,0.0075,0.3);
+k7 = LinearBarElementStiffness(210,0.0085,0.3);
+k8 = LinearBarElementStiffness(210,0.0095,0.3);
+k9 = LinearBarElementStiffness(210,0.0105,0.3);
+k10 = LinearBarElementStiffness(210,0.0115,0.3);
+n = 11;
+K = zeros(n,n);
+K = SpringAssemble(K,k1,1,2);
+K = SpringAssemble(K,k2,2,3);
+K = SpringAssemble(K,k3,3,4);
+K = SpringAssemble(K,k4,4,5);
+K = SpringAssemble(K,k5,5,6);
+K = SpringAssemble(K,k5,6,7);
+K = SpringAssemble(K,k5,7,8);
+K = SpringAssemble(K,k5,8,9);
+K = SpringAssemble(K,k5,9,10);
+K = SpringAssemble(K,k5,10,11);
+KK = K
+KK(11,11) = KK(11,11)*100000000000000000000000000;
+F = [18;0;0;0;0;0;0;0;0;0;0]
+U = KK\F
+F = K*U

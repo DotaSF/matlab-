@@ -1,0 +1,10 @@
+k1 = SpringElementStiffness(100)
+k2 = SpringElementStiffness(200)
+n = 3;
+K = zeros(n,n);
+K = SpringAssemble(K,k1,1,2)
+K = SpringAssemble(K,k2,2,3)
+U = zeros(2,1);
+F = [0;15];
+K = K(2:3,2:3);
+U = K\F

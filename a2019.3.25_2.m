@@ -1,0 +1,12 @@
+nums1=[7 1 3 5 32 12 1 99 10 24];
+nums2=[54 1  456 9 20 45 48 72 61 32 10 94 11];
+nums3=[44 11 25 41 84 77 998 85 2 3 15];
+xx=find(mod(find(nums1),2)==1);
+[values1]=nums1(xx);
+newNums1=values1;
+yy=find(mod(find(nums2),2)==1);
+[values2]=nums2(yy);
+newNums2=values2;
+zz=find(mod(find(nums3),2)==1);
+[values3]=nums3(zz);
+newNums3=values3;
